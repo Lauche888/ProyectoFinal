@@ -1,0 +1,7 @@
+@use "../abstracts/variables" as *;
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: $text-dark;
+    scroll-behavior: smooth;
+}

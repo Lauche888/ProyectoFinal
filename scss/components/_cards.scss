@@ -1,0 +1,8 @@
+// scss/components/_cards.scss
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.card {
+    box-shadow: $shadow-standard;
+    @include hover-lift(-5px);
+}

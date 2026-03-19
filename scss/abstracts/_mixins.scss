@@ -1,0 +1,15 @@
+// scss/abstracts/_mixins.scss
+@use "variables" as *;
+
+@mixin hover-lift($distance: -10px) {
+    transition: $transition-smooth;
+    &:hover {
+        transform: translateY($distance);
+    }
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

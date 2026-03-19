@@ -1,0 +1,66 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #2d3436;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.navbar .nav-link.active {
+  color: #003cff !important;
+}
+
+footer, .footer {
+  background-color: #212529;
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+.card {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.hero-section {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 0;
+  }
+}
+
+.hero-img {
+  max-height: 450px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.hero-img:hover {
+  transform: translateY(-10px);
+}
+
+.experience-float {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=main.css.map */
